@@ -1,5 +1,7 @@
 # CommLog Library
 
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/sullivan1205/commlog)![GitHub](https://img.shields.io/github/license/sullivan1205/commlog?logo=MIT)
+
 CommLog 主要解决第三方库的日志打印问题。比如 程序A依赖第三方库B，希望B也能够使用A的日志输出，而B是另一个团队开发的，最开始不知道A用什么日志库，不能对A进行适配。就算对A进行了适配，后面再出来C呢，还要对C进行适配吗？为了不让B的日志打印特性不跟A和C耦合，所以提出了 CommLog的方案。
 
 ***关于依赖注入设计模式?***
